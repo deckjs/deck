@@ -21,8 +21,8 @@ module.exports = function(argv) {
 
   logo({leftPadding: 4, text: '  Deck'});
 
-  if (arg('init')) { 
-    return require('./lib/init')(); 
+  if (arg('init')) {
+    return require('./lib/init')();
   }
 
   if (arg('install') || arg('i') || arg('inst')) {
@@ -64,13 +64,13 @@ module.exports = function(argv) {
     var msg = prompt('Enter PR Message: ');
 
     upstream(deck, msg, function (err, url) {
-      if (err) { 
+      if (err) {
         return console.error(err);
       }
       console.log(url)
     });
 
-    
+
     return;
   }
 
@@ -78,8 +78,4 @@ module.exports = function(argv) {
   console.log('   ', fs.readdirSync(path.join(__dirname, 'lib')).filter(function (d) {
     return d !== 'init-input.js' && d !== 'selector.js';
   }).map(function (d) { return d.split('.')[0]; }).join('\n    '), '\n');
-
-
-
-
 }
