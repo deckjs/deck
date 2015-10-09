@@ -18,7 +18,7 @@
     "charm": "^1.0.0",
     "colors": "^1.0.3",
     "dot-stream": "^1.0.1",
-    "editor": "^0.1.0",
+    "editor": "1.0.0",
     "event-stream": "^3.2.2",
     "exec-sync": "^0.1.6",
     "extend-object": "^1.0.0",
