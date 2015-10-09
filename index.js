@@ -3,7 +3,6 @@ var fs = require('fs');
 var spawn = require('child_process').spawn;
 var logo = require('nearform-terminal-logo').toTTY;
 var prompt = require('sync-prompt').prompt;
-var dot = require('dot-stream');
 var upstream = require('@deck/upstream');
 var npm = require('path-to-npm')();
 
@@ -12,7 +11,7 @@ function arg(p) {
 }
 
 module.exports = function(argv) {
-  var dots, s, scope;
+  var scope;
   arg.s = argv._;
 
   scope = argv.scope || '@nearform';
@@ -66,10 +65,8 @@ module.exports = function(argv) {
       if (err) {
         return console.error(err);
       }
-      console.log(url)
+      console.log(url);
     });
-
-
     return;
   }
 
@@ -77,4 +74,4 @@ module.exports = function(argv) {
   console.log('   ', fs.readdirSync(path.join(__dirname, 'lib')).filter(function (d) {
     return d !== 'init-input.js' && d !== 'selector.js';
   }).map(function (d) { return d.split('.')[0]; }).join('\n    '), '\n');
-}
+};

@@ -7,6 +7,12 @@
     "deck": "./cmd.js",
     "deck-path": "./deck-path.js"
   },
+  "scripts": {
+    "eslint": "eslint *.js lib/*.js"
+  },
+  "pre-commit": [
+    "eslint"
+  ],
   "preferGlobal": true,
   "author": "David Mark Clements",
   "license": "MIT",
@@ -36,5 +42,9 @@
     "sync-prompt": "^0.4.1",
     "terminal-menu": "^2.1.1",
     "which": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "1.6.0",
+    "pre-commit": "1.1.1"
   }
 }
