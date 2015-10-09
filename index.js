@@ -39,7 +39,6 @@ module.exports = function(argv) {
 
   if (arg('edit')) {
     require('./lib/edit')(argv._[argv._.length-1], argv);
-    return process.exit(0);
   }
 
   if (arg('publish') || arg('pub')) {
