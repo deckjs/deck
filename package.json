@@ -8,10 +8,10 @@
     "deck-path": "./deck-path.js"
   },
   "scripts": {
-    "eslint": "eslint *.js lib/*.js"
+    "standard": "standard --format"
   },
   "pre-commit": [
-    "eslint"
+    "standard"
   ],
   "preferGlobal": true,
   "author": "David Mark Clements",
@@ -22,7 +22,6 @@
     "@deck/presenter": "^1.0.0",
     "@deck/upstream": "^1.0.0",
     "charm": "^1.0.0",
-    "colors": "^1.0.3",
     "dot-stream": "^1.0.1",
     "editor": "1.0.0",
     "event-stream": "^3.2.2",
@@ -44,7 +43,7 @@
     "which": "^1.1.1"
   },
   "devDependencies": {
-    "eslint": "1.6.0",
-    "pre-commit": "1.1.1"
+    "pre-commit": "1.1.1",
+    "standard": "5.3.1"
   }
 }
