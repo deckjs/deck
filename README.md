@@ -1,20 +1,20 @@
 # deck-app
 
-*Deck* is an application that enables content presenters maintain and display their markdown content on an enhanced visual presentation.
+**Deck** is an application that enables content presenters maintain and display their markdown content on an enhanced visual presentation.
+
+The **Deck** command format is the following:
+
+```sh
+deck <command> [command options]
+```
 
 The main Deck commands are:
 
-* Init
-* Install
-* Present
-* Edit
-* Upstream
-
-Deck's launching format is the following:
-
-```sh
-deck <command> [<command options>]
-```
+* init
+* install
+* present
+* edit
+* upstream
 
 ## Installing Deck
 
@@ -47,17 +47,17 @@ Will install all package dependencies needed by the presentation project.
 In the presentation material folder (where the `deck.md` file is located) run the following command:
 
 ```sh
-deck upstream ["<material name>"]
+deck upstream [<material name>]
 ```
 
 ## Edit a deck
 
 ```sh
-deck edit ["<material name>"]
+deck edit [<material name>]
 ```
 
 ## Push deck to github
 
 ```sh
-deck upstream "<material name>"
+deck upstream [<material name>]
 ```
