@@ -1,8 +1,6 @@
 var path = require('path')
 var fs = require('fs')
-var spawn = require('child_process').spawn
 var logo = require('nearform-terminal-logo').toTTY
-var npm = require('path-to-npm')()
 
 function arg (p) {
   return !!~arg.s.indexOf(p)
@@ -39,15 +37,11 @@ module.exports = function (argv) {
   }
 
   if (arg('publish') || arg('pub')) {
-    if (!RegExp('^' + scope).test(require(process.cwd() + '/package.json').name)) {
-      throw Error('Package must be scoped to ' + scope)
-    }
-
-    return spawn(npm, argv._, { customFds: [0, 1, 2] })
+    return require('./lib/publish')(argv, scope)
   }
 
   if (arg('upstream') || arg('up')) {
-    return require('./lib/upstream')(argv)
+    require('./lib/upstream')(argv)
   }
 
   console.log('  Commands:\n')
