@@ -46,7 +46,7 @@ module.exports = function (argv) {
 
   console.log('  Commands:\n')
   console.log('   ', fs.readdirSync(path.join(__dirname, 'lib')).filter(function (d) {
-    return d !== 'init-input.js' && d !== 'selector.js'
+    return d !== 'init-input.js' && d !== 'selector.js' && d !== 'list.js'
   }).map(function (d) {
     return d.split('.')[0]
   }).join('\n    '), '\n')
