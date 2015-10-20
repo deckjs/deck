@@ -68,5 +68,5 @@ If no parameter provided it will edit the `deck.md` file located in the current 
 ```sh
 deck upstream [<material name>]
 ```
-Creates a new branch on github, pushes the content and makes a pull request.
+Creates a new branch on github, pushes the modified material and makes a pull request with the change.
 If no parameter provided it will push the `deck.md` file located in the current folder.
