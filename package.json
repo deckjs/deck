@@ -1,6 +1,6 @@
 {
   "name": "@deck/app",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -23,10 +23,10 @@
   "author": "David Mark Clements",
   "license": "MIT",
   "dependencies": {
-    "@deck/base": "^1.0.1",
-    "@deck/gui": "^1.0.1",
-    "@deck/presenter": "^1.1.0",
-    "@deck/upstream": "^1.1.0",
+    "@deck/base": "^1.0.2",
+    "@deck/gui": "^1.0.2",
+    "@deck/presenter": "^1.2.0",
+    "@deck/upstream": "^1.1.1",
     "charm": "^1.0.0",
     "dot-stream": "^1.0.1",
     "editor": "1.0.0",
