@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "deck": "./cmd.js",
+    "deck": "electron ./cmd.js",
     "deck-path": "./deck-path.js"
   },
   "scripts": {
@@ -26,12 +26,11 @@
     "@deck/base": "^1.0.2",
     "@deck/gui": "^1.0.2",
     "@deck/presenter": "^1.2.0",
-    "@deck/upstream": "^1.1.1",
     "charm": "^1.0.0",
     "dot-stream": "^1.0.1",
     "editor": "1.0.0",
+    "electron-prebuilt": "^0.34.0",
     "event-stream": "^3.2.2",
-    "exec-sync": "^0.1.6",
     "extend-object": "^1.0.0",
     "init-package-json": "^1.2.0",
     "minimist": "^1.1.0",
@@ -44,7 +43,6 @@
     "prompter": "0.0.5",
     "rimraf": "^2.3.4",
     "rimraf-glob": "0.0.0",
-    "sync-prompt": "^0.4.1",
     "terminal-menu": "^2.1.1",
     "which": "^1.1.1"
   },

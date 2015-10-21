@@ -50,4 +50,6 @@ module.exports = function (argv) {
   }).map(function (d) {
     return d.split('.')[0]
   }).join('\n    '), '\n')
+
+  process.exit()
 }

@@ -1,3 +1,17 @@
 #!/usr/bin/env node
 
-require('./')(require('minimist')(process.argv.slice(2)))
+var electron = /electron/i.test(process.argv[0])
+
+if (electron) {
+  require('./')(require('minimist')(process.argv.slice(2)))
+}
+
+if (!electron) {
+  var spawn = require('child_process').spawn
+  spawn(
+    require('electron-prebuilt'),
+    [__filename].concat(process.argv.slice(2)),
+    {
+      stdio: [0, 1, 2]
+    })
+}
