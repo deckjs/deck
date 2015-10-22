@@ -70,3 +70,17 @@ deck upstream [<material name>]
 ```
 Creates a new branch on github, pushes the modified material and makes a pull request with the change.
 If no parameter provided it will push the `deck.md` file located in the current folder.
+
+
+## Credits
+
+Sponsored by <a href="http://nearform.com">nearForm</a>
+
+### Contributors
+
+  * David Mark Clements
+  * Mihai Dima
+  * Cristian Kiss
+
+
+
