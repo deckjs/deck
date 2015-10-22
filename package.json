@@ -8,7 +8,7 @@
     "deck-path": "./deck-path.js"
   },
   "scripts": {
-    "format": "standard --format"
+    "format": "standard"
   },
   "pre-commit": [
     "format"
