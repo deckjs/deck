@@ -1,7 +1,7 @@
 var path = require('path')
 var fs = require('fs')
 var logo = require('nearform-terminal-logo').toTTY
-var exec = require('exec-sync')
+var exec = require('child_process').execSync
 
 function arg (p) {
   return !!~arg.s.indexOf(p)
