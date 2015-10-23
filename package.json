@@ -8,10 +8,11 @@
     "deck-path": "./deck-path.js"
   },
   "scripts": {
-    "format": "standard"
+    "lint": "standard",
+    "format": "standard --lint"
   },
   "pre-commit": [
-    "format"
+    "lint"
   ],
   "files": [
     "lib",
