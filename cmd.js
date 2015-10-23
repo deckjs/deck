@@ -2,7 +2,6 @@
 
 var electron = /electron/i.test(process.argv[0])
 if (electron) {
-
   require('./')(require('minimist')(process.argv.slice(2)))
 }
 
