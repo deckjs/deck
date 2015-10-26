@@ -17,3 +17,11 @@ Please log any issues here
 * [deck-skin-light](https://github.com/nearform/deck-skin-light)
 * [deck-terminal-logo](https://github.com/nearform/deck-terminal-logo)
 * [deck-upstream](https://github.com/nearform/deck-upstream)
+
+## Contributing
+
+Deck is an **OPEN Open Source Project**. This means that:
+
+> Individuals making significant and valuable contributions are given commit-access to a project to contribute as they see fit. A project is more like an open wiki than a standard guarded open source project.
+
+See the [`CONTRIBUTING.md`](CONTRIBUTING.md) file for more details.
