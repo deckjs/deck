@@ -2,6 +2,8 @@
 
 Deck is a markdown driven content presentation system
 
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+
 ![](deck-logo.png)
 
 This is a master repo for all deck repos
@@ -35,20 +37,26 @@ The deck system is built on and/or utilizes:
 
 ![](anatomy.png)
 
+## Issues and PR's
+
+* Please open any issues for any deck related module on the <https://github.com/nearform/deck> community repo.
+* Any module specific PR's are welcomed on the corresponding repo.
+
 ## Credits
 
 Sponsored by <a href="http://nearform.com">nearForm</a>
 
-## Contributors
+### Contributors
 
-* David Mark Clements
-* Mihai Dima
-* Cristian Kiss
+  * David Mark Clements
+  * Mihai Dima
+  * Cristian Kiss
 
-## Contributing
+### Contributing
 
 Deck is an **OPEN Open Source Project**. This means that:
 
 > Individuals making significant and valuable contributions are given commit-access to a project to contribute as they see fit. A project is more like an open wiki than a standard guarded open source project.
 
 See the [`CONTRIBUTING.md`](CONTRIBUTING.md) file for more details.
+
