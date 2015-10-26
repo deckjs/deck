@@ -1,3 +1,33 @@
 [submodule "deck-app"]
 	path = deck-app
 	url = http://github.com/nearform/deck-app
+[submodule "deck-gui"]
+	path = deck-gui
+	url = http://github.com/nearform/deck-gui
+[submodule "deck-presenter"]
+	path = deck-presenter
+	url = http://github.com/nearform/deck-presenter
+[submodule "deck-terminal-logo"]
+	path = deck-terminal-logo
+	url = http://github.com/nearform/deck-terminal-logo
+[submodule "deck-base"]
+	path = deck-base
+	url = http://github.com/nearform/deck-base
+[submodule "deck-app-unscoped"]
+	path = deck-app-unscoped
+	url = http://github.com/nearform/deck-app-unscoped
+[submodule "deck-example-deck"]
+	path = deck-example-deck
+	url = http://github.com/nearform/deck-example-deck
+[submodule "deck-skin-light"]
+	path = deck-skin-light
+	url = http://github.com/nearform/deck-skin-light
+[submodule "deck-present"]
+	path = deck-present
+	url = http://github.com/nearform/deck-present
+[submodule "deck-base-theme"]
+	path = deck-base-theme
+	url = http://github.com/nearform/deck-base-theme
+[submodule "deck-upstream"]
+	path = deck-upstream
+	url = http://github.com/nearform/deck-upstream
