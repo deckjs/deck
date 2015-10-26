@@ -23,8 +23,6 @@ Please log any issues here
 
 ## Technologies
 
-![](anatomy.png)
-
 The deck system is built on and/or utilizes:
 
 * [Electron](http://electron.atom.io)
@@ -34,6 +32,8 @@ The deck system is built on and/or utilizes:
 * [YAML](http://yaml.org)
 * [NPM](http://npmjs.org)
 * [GitHub](http://github.com)
+
+![](anatomy.png)
 
 ## Credits
 
