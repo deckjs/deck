@@ -1,5 +1,7 @@
 # Deck
 
+![](deck-logo.png)
+
 This is a master repo for all deck repos
 
 Please log any issues here
