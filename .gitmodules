@@ -1,0 +1,3 @@
+[submodule "deck-app"]
+	path = deck-app
+	url = http://github.com/nearform/deck-app
