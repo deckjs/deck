@@ -2,8 +2,6 @@
 
 Deck is a markdown driven content presentation system
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
-
 ![](deck-logo.png)
 
 This is a master repo for all deck repos
