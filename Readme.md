@@ -4,6 +4,10 @@ Deck is a markdown driven content presentation system
 
 ![](deck-logo.png)
 
+```sh
+npm install -g @deck/app
+```
+
 This is a master repo for all deck repos
 
 Please log any issues here
